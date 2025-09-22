@@ -1,855 +1,520 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-    />
-    <link rel="icon" type="image/png" href="images/app-icon.png" />
-    <link rel="stylesheet" href="styles/app.css" />
-    <link rel="stylesheet" href="styles/aos.css" />
-    <title>Camping Web</title>
-  </head>
 
-  <body>
-    <!-- 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="description"
+    content="Book unique camping experiences on over 300,000 campsites, cabins, RV parks, public parks and more. Discover the best outdoor destinations for your next adventure." />
+  <meta name="keywords"
+    content="camping, outdoor, adventure, cabins, RV parks, campsites, nature, travel, hiking, outdoor activities" />
+  <link rel="icon" type="image/png" href="images/app-icon.png" />
+  <link rel="stylesheet" href="styles/app.css" />
+  <link rel="stylesheet" href="styles/aos.css" />
+  <title>Camping Web</title>
+</head>
+
+<body>
+  <!-- 
 ===================
 ====== Header ======
 ===================
 -->
-    <header class="header">
-      <div class="container">
-        <!-- 
+  <header class="header">
+    <div class="container">
+      <!-- 
 ===================
 ===== Navigation ====
 ===================
 -->
-        <nav class="nav">
-          <!--
+      <nav class="nav">
+        <!--
 ===================
 ===== Nav Mobile ====
 ===================
 -->
-          <div class="nav-mobile nav-mobile--open">
-            <h2 class="mobile-menu__title">Camping Website</h2>
-            <ul class="mobile-menu">
-              <li class="mobile-menu__item">
-                <a href="#" class="mobile-menu__link">Home</a>
-              </li>
-              <li class="mobile-menu__item">
-                <a href="#" class="mobile-menu__link">Destination</a>
-              </li>
-              <li class="mobile-menu__item">
-                <a href="#" class="mobile-menu__link">Near me</a>
-              </li>
-              <li class="mobile-menu__item">
-                <a href="#" class="mobile-menu__link">Events</a>
-              </li>
-              <li class="mobile-menu__item">
-                <a href="#" class="mobile-menu__link">Blog</a>
-              </li>
-              <li class="mobile-menu__item">
-                <a href="#" class="mobile-menu__link">Gallery</a>
-              </li>
-              <li class="mobile-menu__item">
-                <a href="#" class="mobile-menu__link">About</a>
-              </li>
-              <li class="mobile-menu__item">
-                <a href="#" class="mobile-menu__link">Contact us</a>
-              </li>
-              <!-- 
+        <div class="nav-mobile nav-mobile--open">
+          <h2 class="mobile-menu__title">Camping Website</h2>
+          <ul class="mobile-menu">
+            <li class="mobile-menu__item">
+              <a href="#" class="mobile-menu__link">Home</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="#" class="mobile-menu__link">Destination</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="#" class="mobile-menu__link">Near me</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="#" class="mobile-menu__link">Events</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="#" class="mobile-menu__link">Blog</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="#" class="mobile-menu__link">Gallery</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="#" class="mobile-menu__link">About</a>
+            </li>
+            <li class="mobile-menu__item">
+              <a href="#" class="mobile-menu__link">Contact us</a>
+            </li>
+            <!-- 
                             ===================
                             ===== Mobile links ====
                             ===================
                             -->
-              <div class="nav-mobile__links">
-                <a href="#" class="nav-mobile__link nav-mobile__link--up"
-                  >Sign up</a
-                >
-                <a href="#" class="nav-mobile__link nav-mobile__link--in"
-                  >Sign in</a
-                >
-              </div>
-            </ul>
-          </div>
-          <!-- 
+            <div class="nav-mobile__links">
+              <a href="#" class="nav-mobile__link nav-mobile__link--up">Sign up</a>
+              <a href="#" class="nav-mobile__link nav-mobile__link--in">Sign in</a>
+            </div>
+          </ul>
+        </div>
+        <!-- 
 ===================
 ===== Mobile Log ====
 ===================
 -->
-          <a href="#" class="app-logo">
-            <img
-              class="app-logo__img"
-              src="images/svgs/logo.svg"
-              alt="Camping Web"
-            />
-          </a>
-          <!-- 
+        <a href="#" class="app-logo">
+          <img width="100%" height="100%" class="app-logo__img" src="images/svgs/logo.svg" alt="Camping Web" />
+        </a>
+        <!-- 
 ===================
 ===== Nav button ====
 ===================
                         -->
-          <div class="nav__btn">
-            <span class="navbtn-line"></span>
-          </div>
-          <!-- 
+        <div class="nav__btn">
+          <span class="navbtn-line"></span>
+        </div>
+        <!-- 
 ===================
 === Nav Desktop ====
 ===================
                         -->
-          <div class="nav-desktop">
-            <!-- 
+        <div class="nav-desktop">
+          <!-- 
 ===================
 === Desktop Logo ====
 ===================
                         -->
-            <a href="#" class="desktop-logo">
-              <img
-                class="desktop-logo__img"
-                src="images/svgs/logo.svg"
-                alt="Camping Web"
-              />
-            </a>
-            <ul class="desktop-menu">
-              <!-- 
+          <a href="#" class="desktop-logo">
+            <img width="100%" height="100%" class="desktop-logo__img" src="images/svgs/logo.svg" alt="Camping Web" />
+          </a>
+          <ul class="desktop-menu">
+            <!-- 
 ===================
 === Desktop items ===
 ===================
                         -->
-              <li class="desktop-menu__item desktop-menu__item--line">
-                <a href="#" class="desktop-menu__link">Home</a>
-              </li>
-              <li class="desktop-menu__item">
-                <a href="#" class="desktop-menu__link">Destination</a>
-              </li>
-              <li class="desktop-menu__item">
-                <a href="#" class="desktop-menu__link">Near me</a>
-              </li>
-              <li class="desktop-menu__item">
-                <a href="#" class="desktop-menu__link">Events</a>
-              </li>
-              <li class="desktop-menu__item">
-                <a href="#" class="desktop-menu__link">Blog</a>
-              </li>
-              <li class="desktop-menu__item">
-                <a href="#" class="desktop-menu__link">Gallery</a>
-              </li>
-              <li class="desktop-menu__item">
-                <a href="#" class="desktop-menu__link">About</a>
-              </li>
-              <li class="desktop-menu__item">
-                <a href="#" class="desktop-menu__link">Contact us</a>
-              </li>
-            </ul>
-          </div>
-          <!-- 
+            <li class="desktop-menu__item desktop-menu__item--line">
+              <a href="#" class="desktop-menu__link">Home</a>
+            </li>
+            <li class="desktop-menu__item">
+              <a href="#" class="desktop-menu__link">Destination</a>
+            </li>
+            <li class="desktop-menu__item">
+              <a href="#" class="desktop-menu__link">Near me</a>
+            </li>
+            <li class="desktop-menu__item">
+              <a href="#" class="desktop-menu__link">Events</a>
+            </li>
+            <li class="desktop-menu__item">
+              <a href="#" class="desktop-menu__link">Blog</a>
+            </li>
+            <li class="desktop-menu__item">
+              <a href="#" class="desktop-menu__link">Gallery</a>
+            </li>
+            <li class="desktop-menu__item">
+              <a href="#" class="desktop-menu__link">About</a>
+            </li>
+            <li class="desktop-menu__item">
+              <a href="#" class="desktop-menu__link">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <!-- 
 ===================
 === Desktop Links ====
 ===================
         -->
-          <div class="nav-desktop__links">
-            <a href="#" class="nav-menu__link nav-menu__link--up">Sign up</a>
-            <a href="#" class="nav-menu__link nav-menu__link--in">Sign in</a>
-          </div>
-        </nav>
+        <div class="nav-desktop__links">
+          <a href="#" class="nav-menu__link nav-menu__link--up">Sign up</a>
+          <a href="#" class="nav-menu__link nav-menu__link--in">Sign in</a>
+        </div>
+      </nav>
 
-        <!-- 
+      <!-- 
 ===================
 == Header Content ===
 ===================
             -->
-        <div class="header-content">
-          <h1 class="header-content__title">
-            Find Yourself <br />
-            Outside
-          </h1>
-          <p class="header-content__discrption">
-            Book unique camping experiences on over 300,000 campsites, cabins,
-            RV parks, public parks and more.
-          </p>
-          <a href="#" class="primary-btn header-content__btn">Discover</a>
-        </div>
+      <div class="header-content">
+        <h1 class="header-content__title">
+          Find Yourself <br />
+          Outside
+        </h1>
+        <p class="header-content__discrption">
+          Book unique camping experiences on over 300,000 campsites, cabins,
+          RV parks, public parks and more.
+        </p>
+        <a href="#" class="primary-btn header-content__btn">Discover</a>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <!-- 
+  <!-- 
 ===================
 ======= Main =======
 ===================
     -->
-    <main class="main">
-      <div class="container">
-        <!-- 
+  <main class="main">
+    <div class="container">
+      <!-- 
 ===================
 ===== Services ======
 ===================
         -->
-        <section class="services">
-          <div data-aos="flip-left" data-aos-duration="750" class="service">
-            <img src="./images/svgs/fire.svg" alt="fire" class="service__img" />
-            <h2 class="service__title">Camping & Day Use</h2>
-            <p class="service__discrption">
-              Return to your favorite spot or discover a new one that’s right
-              for you.
-            </p>
-          </div>
-          <div data-aos="flip-left" data-aos-duration="750" class="service">
-            <img
-              src="./images/svgs/tickets.svg"
-              alt="tickets"
-              class="service__img"
-            />
-            <h2 class="service__title">Tours & Tickets</h2>
-            <p class="service__discrption">
-              Reserve tours and tickets to participate in events.
-            </p>
-          </div>
-          <div data-aos="flip-left" data-aos-duration="750" class="service">
-            <img
-              src="./images/svgs/paper.svg"
-              alt="paper"
-              class="service__img"
-            />
-            <h2 class="service__title">Permits</h2>
-            <p class="service__discrption">
-              Obtain permits for access to high-demand locations.
-            </p>
-          </div>
-          <div data-aos="flip-left" data-aos-duration="750" class="service">
-            <img src="./images/svgs/fish.svg" alt="fish" class="service__img" />
-            <h2 class="service__title">Recreation Activities</h2>
-            <p class="service__discrption">
-              Find the best spots for hunting, fishing & recreational shooting.
-            </p>
-          </div>
-        </section>
-        <!-- 
+      <section class="services">
+        <div data-aos="flip-left" data-aos-duration="750" class="service">
+          <img width="100%" height="100%" src="./images/svgs/fire.svg" alt="fire" class="service__img" />
+          <h2 class="service__title">Camping & Day Use</h2>
+          <p class="service__discrption">
+            Return to your favorite spot or discover a new one that’s right
+            for you.
+          </p>
+        </div>
+        <div data-aos="flip-left" data-aos-duration="750" class="service">
+          <img width="100%" height="100%" src="./images/svgs/tickets.svg" alt="tickets" class="service__img" />
+          <h2 class="service__title">Tours & Tickets</h2>
+          <p class="service__discrption">
+            Reserve tours and tickets to participate in events.
+          </p>
+        </div>
+        <div data-aos="flip-left" data-aos-duration="750" class="service">
+          <img width="100%" height="100%" src="./images/svgs/paper.svg" alt="paper" class="service__img" />
+          <h2 class="service__title">Permits</h2>
+          <p class="service__discrption">
+            Obtain permits for access to high-demand locations.
+          </p>
+        </div>
+        <div data-aos="flip-left" data-aos-duration="750" class="service">
+          <img width="100%" height="100%" src="./images/svgs/fish.svg" alt="fish" class="service__img" />
+          <h2 class="service__title">Recreation Activities</h2>
+          <p class="service__discrption">
+            Find the best spots for hunting, fishing & recreational shooting.
+          </p>
+        </div>
+      </section>
+      <!-- 
 ===================
 ===== Products ======
 ===================
 -->
 
-        <div
-          data-aos="zoom-out-down"
-          data-aos-duration="750"
-          class="products-destinations"
-        >
-          <img
-            class="products-picture"
-            src="./images/svgs/destination.svg"
-            alt="destination"
-          />
-          <h2 class="products-title">
-            Explore Destinations &<br />
-            Activities
-          </h2>
-        </div>
-        <section class="products">
-          <div class="product">
-            <div class="product-img">
-              <img
-                class="product-img__picture"
-                src="./images/image1.jpg"
-                alt=""
-              />
-              <label class="product-img__btn">
-                <input class="btn__box" type="checkbox" />
-                <div class="btn__like">
-                  <svg viewBox="0 0 256 256">
-                    <rect fill="none" height="100%" width="100%"></rect>
-                    <path
-                      class="like-color"
-                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
-                      stroke-width="20px"
-                      stroke=""
-                      fill="none"
-                    ></path>
-                  </svg>
-                </div>
-              </label>
-              <h3 class="product-img__price">$42/Day</h3>
-            </div>
-            <div class>
-              <h2 class="product__title">Trickle Creek Ranch</h2>
-              <p class="product__discrption">
-                Book unique camping experiences on over 300,000 campsites.
-              </p>
-            </div>
-            <a href="#" class="product__btn primary-btn">Read More</a>
-          </div>
-          <div class="product">
-            <div class="product-img">
-              <img
-                class="product-img__picture"
-                src="./images/image2.jpg"
-                alt=""
-              />
-              <label class="product-img__btn">
-                <input class="btn__box" type="checkbox" />
-                <div class="btn__like">
-                  <svg viewBox="0 0 256 256">
-                    <rect fill="none" height="100%" width="100%"></rect>
-                    <path
-                      class="like-color"
-                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
-                      stroke-width="20px"
-                      stroke=""
-                      fill="none"
-                    ></path>
-                  </svg>
-                </div>
-              </label>
-              <h3 class="product-img__price">$30/Day</h3>
-            </div>
-            <div class>
-              <h2 class="product__title">Dragonfly Tiny Cabin</h2>
-              <p class="product__discrption">
-                Book unique camping experiences on over 300,000 campsites.
-              </p>
-            </div>
-            <a href="#" class="product__btn primary-btn">Read More</a>
-          </div>
-          <div class="product">
-            <div class="product-img">
-              <img
-                class="product-img__picture"
-                src="./images/image3.jpg"
-                alt=""
-              />
-              <label class="product-img__btn">
-                <input class="btn__box" type="checkbox" />
-                <div class="btn__like">
-                  <svg viewBox="0 0 256 256">
-                    <rect fill="none" height="100%" width="100%"></rect>
-                    <path
-                      class="like-color"
-                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
-                      stroke-width="20px"
-                      stroke=""
-                      fill="none"
-                    ></path>
-                  </svg>
-                </div>
-              </label>
-              <h3 class="product-img__price">$28/Day</h3>
-            </div>
-            <div class>
-              <h2 class="product__title">Tiny Cabin in the mountains</h2>
-              <p class="product__discrption">
-                Book unique camping experiences on over 300,000 campsites.
-              </p>
-            </div>
-            <a href="#" class="product__btn primary-btn">Read More</a>
-          </div>
-          <div class="product">
-            <div class="product-img">
-              <img
-                class="product-img__picture"
-                src="./images/image4.jpg"
-                alt=""
-              />
-              <label class="product-img__btn">
-                <input class="btn__box" type="checkbox" />
-                <div class="btn__like">
-                  <svg viewBox="0 0 256 256">
-                    <rect fill="none" height="100%" width="100%"></rect>
-                    <path
-                      class="like-color"
-                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
-                      stroke-width="20px"
-                      stroke=""
-                      fill="none"
-                    ></path>
-                  </svg>
-                </div>
-              </label>
-              <h3 class="product-img__price">$29/Night</h3>
-            </div>
-            <div class>
-              <h2 class="product__title">The Stuga</h2>
-              <p class="product__discrption">
-                Book unique camping experiences on over 300,000 campsites.
-              </p>
-            </div>
-            <a href="#" class="product__btn primary-btn">Read More</a>
-          </div>
-          <div class="product">
-            <div class="product-img">
-              <img
-                class="product-img__picture"
-                src="./images/image5.jpg"
-                alt=""
-              />
-              <label class="product-img__btn">
-                <input class="btn__box" type="checkbox" />
-                <div class="btn__like">
-                  <svg viewBox="0 0 256 256">
-                    <rect fill="none" height="100%" width="100%"></rect>
-                    <path
-                      class="like-color"
-                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
-                      stroke-width="20px"
-                      stroke=""
-                      fill="none"
-                    ></path>
-                  </svg>
-                </div>
-              </label>
-              <h3 class="product-img__price">$34/Day</h3>
-            </div>
-            <div class>
-              <h2 class="product__title">Luxury Tiny Beach Cabin</h2>
-              <p class="product__discrption">
-                Book unique camping experiences on over 300,000 campsites.
-              </p>
-            </div>
-            <a href="#" class="product__btn primary-btn">Read More</a>
-          </div>
-          <div class="product">
-            <div class="product-img">
-              <img
-                class="product-img__picture"
-                src="./images/image6.jpg"
-                alt=""
-              />
-              <label class="product-img__btn">
-                <input class="btn__box" type="checkbox" />
-                <div class="btn__like">
-                  <svg viewBox="0 0 256 256">
-                    <rect fill="none" height="100%" width="100%"></rect>
-                    <path
-                      class="like-color"
-                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
-                      stroke-width="20px"
-                      stroke=""
-                      fill="none"
-                    ></path>
-                  </svg>
-                </div>
-              </label>
-              <h3 class="product-img__price">$55/Day</h3>
-            </div>
-            <div class>
-              <h2 class="product__title">The Summit Cabin</h2>
-              <p class="product__discrption">
-                Book unique camping experiences on over 300,000 campsites.
-              </p>
-            </div>
-            <a href="#" class="product__btn primary-btn">Read More</a>
-          </div>
-          <div class="product">
-            <div class="product-img">
-              <img
-                class="product-img__picture"
-                src="./images/image7.jpg"
-                alt=""
-              />
-              <label class="product-img__btn">
-                <input class="btn__box" type="checkbox" />
-                <div class="btn__like">
-                  <svg viewBox="0 0 256 256">
-                    <rect fill="none" height="100%" width="100%"></rect>
-                    <path
-                      class="like-color"
-                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
-                      stroke-width="20px"
-                      stroke=""
-                      fill="none"
-                    ></path>
-                  </svg>
-                </div>
-              </label>
-              <h3 class="product-img__price">$46/Day</h3>
-            </div>
-            <div class>
-              <h2 class="product__title">Kindred Spirits Cabin</h2>
-              <p class="product__discrption">
-                Book unique camping experiences on over 300,000 campsites.
-              </p>
-            </div>
-            <a href="#" class="product__btn primary-btn">Read More</a>
-          </div>
-          <div class="product">
-            <div class="product-img">
-              <img
-                class="product-img__picture"
-                src="./images/image8.jpg"
-                alt=""
-              />
-              <label class="product-img__btn">
-                <input class="btn__box" type="checkbox" />
-                <div class="btn__like">
-                  <svg viewBox="0 0 256 256">
-                    <rect fill="none" height="100%" width="100%"></rect>
-                    <path
-                      class="like-color"
-                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
-                      stroke-width="20px"
-                      stroke=""
-                      fill="none"
-                    ></path>
-                  </svg>
-                </div>
-              </label>
-              <h3 class="product-img__price">$38/Night</h3>
-            </div>
-            <div class>
-              <h2 class="product__title">The Hermitage Cabin</h2>
-              <p class="product__discrption">
-                Book unique camping experiences on over 300,000 campsites.
-              </p>
-            </div>
-            <a href="#" class="product__btn primary-btn">Read More</a>
-          </div>
-          <div class="product">
-            <div class="product-img">
-              <img
-                class="product-img__picture"
-                src="./images/image9.jpg"
-                alt=""
-              />
-              <label class="product-img__btn">
-                <input class="btn__box" type="checkbox" />
-                <div class="btn__like">
-                  <svg viewBox="0 0 256 256">
-                    <rect fill="none" height="100%" width="100%"></rect>
-                    <path
-                      class="like-color"
-                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
-                      stroke-width="20px"
-                      stroke=""
-                      fill="none"
-                    ></path>
-                  </svg>
-                </div>
-              </label>
-              <h3 class="product-img__price">$36/Day</h3>
-            </div>
-            <div class>
-              <h2 class="product__title">Red Lifeguard Stand</h2>
-              <p class="product__discrption">
-                Book unique camping experiences on over 300,000 campsites.
-              </p>
-            </div>
-            <a href="#" class="product__btn primary-btn">Read More</a>
-          </div>
-          <div class="product">
-            <div class="product-img">
-              <img
-                class="product-img__picture"
-                src="./images/image10.jpg"
-                alt=""
-              />
-              <label class="product-img__btn">
-                <input class="btn__box" type="checkbox" />
-                <div class="btn__like">
-                  <svg viewBox="0 0 256 256">
-                    <rect fill="none" height="100%" width="100%"></rect>
-                    <path
-                      class="like-color"
-                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
-                      stroke-width="20px"
-                      stroke=""
-                      fill="none"
-                    ></path>
-                  </svg>
-                </div>
-              </label>
-              <h3 class="product-img__price">$44/Night</h3>
-            </div>
-            <div class>
-              <h2 class="product__title">The Tree House</h2>
-              <p class="product__discrption">
-                Book unique camping experiences on over 300,000 campsites.
-              </p>
-            </div>
-            <a href="#" class="product__btn primary-btn">Read More</a>
-          </div>
-          <div class="product">
-            <div class="product-img">
-              <img
-                class="product-img__picture"
-                src="./images/image11.jpg"
-                alt=""
-              />
-              <label class="product-img__btn">
-                <input class="btn__box" type="checkbox" />
-                <div class="btn__like">
-                  <svg viewBox="0 0 256 256">
-                    <rect fill="none" height="100%" width="100%"></rect>
-                    <path
-                      class="like-color"
-                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
-                      stroke-width="20px"
-                      stroke=""
-                      fill="none"
-                    ></path>
-                  </svg>
-                </div>
-              </label>
-              <h3 class="product-img__price">$49/Day</h3>
-            </div>
-            <div class>
-              <h2 class="product__title">Barrier island elevated tent</h2>
-              <p class="product__discrption">
-                Book unique camping experiences on over 300,000 campsites.
-              </p>
-            </div>
-            <a href="#" class="product__btn primary-btn">Read More</a>
-          </div>
-          <div class="product">
-            <div class="product-img">
-              <img
-                class="product-img__picture"
-                src="./images/image12.jpg"
-                alt=""
-              />
-              <label class="product-img__btn">
-                <input class="btn__box" type="checkbox" />
-                <div class="btn__like">
-                  <svg viewBox="0 0 256 256">
-                    <rect fill="none" height="100%" width="100%"></rect>
-                    <path
-                      class="like-color"
-                      d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
-                      stroke-width="20px"
-                      stroke=""
-                      fill="none"
-                    ></path>
-                  </svg>
-                </div>
-              </label>
-              <h3 class="product-img__price">$69/Day</h3>
-            </div>
-            <div class>
-              <h2 class="product__title">Ninovan on the Shore</h2>
-              <p class="product__discrption">
-                Book unique camping experiences on over 300,000 campsites.
-              </p>
-            </div>
-            <a href="#" class="product__btn primary-btn">Read More</a>
-          </div>
-        </section>
-        <div
-          data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          class="bottom-shape"
-        >
-          <svg
-            class="shape__img"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="1008.931"
-            height="1025.749"
-            viewBox="0 0 1008.931 1025.749"
-          >
-            <path
-              d="M501.2,0c283.253,0,512.875,229.622,512.875,512.875S784.458,1025.749,501.2,1025.749-254.276,629.973,182.739,512.875,217.952,0,501.2,0Z"
-            />
-            <defs>
-              <linearGradient id="MyGradient">
-                <stop offset="10%" stop-color="#F8E1DB" />
-                <stop offset="90%" stop-color="#FAF4F2" />
-              </linearGradient>
-            </defs>
-            <rect width="100%" />
-          </svg>
-        </div>
-        <div
-          data-aos="fade-right"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-          class="bottom-miror-shape"
-        >
-          <svg
-            class="shape__img"
-            xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink"
-            width="981.678"
-            height="998.042"
-            viewBox="0 0 981.678 998.042"
-          >
-            <path
-              class=""
-              d="M504.169,0C228.568,0,5.148,223.419,5.148,499.021S228.568,998.042,504.169,998.042s735.074-385.086,309.863-499.021S779.771,0,504.169,0Z"
-            />
-            <defs>
-              <linearGradient id="MyGradient">
-                <stop offset="10%" stop-color="#F8E1DB" />
-                <stop offset="90%" stop-color="#FAF4F2" />
-              </linearGradient>
-            </defs>
-            <rect width="100%" />
-          </svg>
-        </div>
-        <a
-          class="products__btn primary-btn"
-          href="#"
-          data-aos="zoom-out-up"
-          data-aos-duration="750"
-          >View More</a
-        >
-        <section
-          class="newsletter"
-          data-aos="zoom-out-up"
-          data-aos-duration="500"
-        >
-          <div
-            data-aos="zoom-out-down"
-            data-aos-duration="3000"
-            class="newsletter__content-mobile-shape"
-          >
-            <svg
-              class="shape__img"
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              width="981.678"
-              height="998.042"
-              viewBox="0 0 981.678 998.042"
-            >
-              <path
-                class=""
-                d="M504.169,0C228.568,0,5.148,223.419,5.148,499.021S228.568,998.042,504.169,998.042s735.074-385.086,309.863-499.021S779.771,0,504.169,0Z"
-              />
-              <defs>
-                <linearGradient id="MyGradient">
-                  <stop offset="10%" stop-color="#F8E1DB" />
-                  <stop offset="90%" stop-color="#f5f5f5" />
-                </linearGradient>
-              </defs>
-              <rect width="100%" />
-            </svg>
-          </div>
-          <div
-            data-aos="zoom-out-left"
-            data-aos-duration="3000"
-            class="newsletter__content-desktop-shape"
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              xmlns:xlink="http://www.w3.org/1999/xlink"
-              width="1518"
-              height="390"
-              viewBox="0 0 1518 390"
-            >
-              <defs>
-                <linearGradient
-                  id="a"
-                  x1="0.971"
-                  y1="0.622"
-                  x2="0.142"
-                  y2="0.592"
-                  gradientUnits="objectBoundingBox"
-                >
-                  <stop offset="0" stop-color="#fff" />
-                  <stop offset="1" stop-color="#fff0ec" />
-                </linearGradient>
-                <clipPath id="b">
-                  <rect width="1518" height="390" rx="20" fill="url(#a)" />
-                </clipPath>
-                <linearGradient
-                  id="c"
-                  x1="0.102"
-                  y1="0.459"
-                  x2="1.115"
-                  y2="0.475"
-                  gradientUnits="objectBoundingBox"
-                >
-                  <stop offset="0" stop-color="#ffd2c6" />
-                  <stop offset="1" stop-color="#fff" />
-                </linearGradient>
-              </defs>
-              <g clip-path="url(#b)">
-                <path
-                  d="M519.044,1000.568c286.66,0,653.871-523.406,308.75-523.406S805.7,0,519.044,0,0,223.985,0,500.284,232.384,1000.568,519.044,1000.568Z"
-                  transform="translate(-118.114 -385.284)"
-                  fill="url(#c)"
-                />
-              </g>
-            </svg>
-          </div>
-          <div
-            class="newsletter__picture"
-            data-aos="zoom-out-up"
-            data-aos-duration="500"
-          >
-            <img
-              class="newsletter__picture-tent"
-              src="./images/tent.png"
-              alt="tent"
-            />
-          </div>
-          <div
-            class="newsletter__content"
-            data-aos="zoom-out-up"
-            data-aos-duration="500"
-          >
-            <h2 class="newsletter__title">Let's Stay in Touch</h2>
-            <p class="newsletter__discription">
-              Get travel planning ideas, helpful tips, and stories from our
-              visitors delivered right to your inbox.
-            </p>
-            <form action="" class="newsletter__email-box">
-              <svg
-                class="newsletter__email-box-icon"
-                xmlns="http://www.w3.org/2000/svg"
-                width="24.242"
-                height="17.746"
-                viewBox="0 0 24.242 17.746"
-              >
-                <path
-                  id="Path_908"
-                  data-name="Path 908"
-                  d="M26.215,17.058H8.027A3.03,3.03,0,0,0,5,20.085V31.777A3.031,3.031,0,0,0,8.027,34.8H26.215a3.031,3.031,0,0,0,3.027-3.027V20.085A3.03,3.03,0,0,0,26.215,17.058Zm-18.188.857H26.215a2.168,2.168,0,0,1,1.829,1.007l-9.328,8.81a2.354,2.354,0,0,1-3.189,0L6.2,18.923A2.169,2.169,0,0,1,8.027,17.915ZM5.878,32.062a2.207,2.207,0,0,1-.021-.285V20.085a2.163,2.163,0,0,1,.021-.285l6.491,6.131Zm20.337,1.885H8.027A2.168,2.168,0,0,1,6.2,32.94l6.8-6.419,1.944,1.835a3.22,3.22,0,0,0,4.366,0l1.943-1.835,6.8,6.418A2.167,2.167,0,0,1,26.215,33.947Zm2.169-13.862V31.777a2.2,2.2,0,0,1-.021.285l-6.491-6.131L28.364,19.8A2.251,2.251,0,0,1,28.384,20.085Z"
-                  transform="translate(-5 -17.058)"
-                  fill="#8d8d8d"
-                />
-              </svg>
-              <input
-                type="email"
-                class="newsletter__input"
-                placeholder="Email Address"
-              />
-              <button class="newsletter__submit" type="submit">
-                <svg
-                  class="newsletter__submit-icon"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24.162"
-                  height="18.23"
-                  viewBox="0 0 24.162 18.23"
-                >
-                  <path
-                    id="Path_909"
-                    data-name="Path 909"
-                    d="M9.778,15.82,6.954,17.7a.55.55,0,0,1-.816-.439V13.121l11.546-8.66L3.88,11.8.3,9.356A.748.748,0,0,1,.491,8.039L23.709-.37c.314-.126.565.251.377.565L13.606,17.514a.773.773,0,0,1-1.067.188Z"
-                    transform="translate(0.012 0.395)"
-                    fill-rule="evenodd"
-                  />
+      <div data-aos="zoom-out-down" data-aos-duration="750" class="products-destinations">
+        <img width="100%" height="100%" class="products-picture" src="./images/svgs/destination.svg"
+          alt="destination" />
+        <h2 class="products-title">
+          Explore Destinations &<br />
+          Activities
+        </h2>
+      </div>
+      <section class="products">
+        <div class="product">
+          <div class="product-img">
+            <img width="100%" height="100%" class="product-img__picture" src="./images/image1.jpg" alt="" />
+            <label class="product-img__btn">
+              <input class="btn__box" type="checkbox" />
+              <div class="btn__like">
+                <svg viewBox="0 0 256 256">
+                  <rect fill="none" height="100%" width="100%"></rect>
+                  <path class="like-color"
+                    d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                    stroke-width="20px" stroke="" fill="none"></path>
                 </svg>
-              </button>
-            </form>
+              </div>
+            </label>
+            <h3 class="product-img__price">$42/Day</h3>
           </div>
-        </section>
-      </div>
-      <div
-        data-aos="fade-left"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine"
-        class="shape"
-      >
-        <svg
-          class="shape__img"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          width="1008.931"
-          height="1025.749"
-          viewBox="0 0 1008.931 1025.749"
-        >
+          <div>
+            <h2 class="product__title">Trickle Creek Ranch</h2>
+            <p class="product__discrption">
+              Book unique camping experiences on over 300,000 campsites.
+            </p>
+          </div>
+          <a href="#" class="product__btn primary-btn">Read More</a>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img width="100%" height="100%" class="product-img__picture" src="./images/image2.jpg" alt="" />
+            <label class="product-img__btn">
+              <input class="btn__box" type="checkbox" />
+              <div class="btn__like">
+                <svg viewBox="0 0 256 256">
+                  <rect fill="none" height="100%" width="100%"></rect>
+                  <path class="like-color"
+                    d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                    stroke-width="20px" stroke="" fill="none"></path>
+                </svg>
+              </div>
+            </label>
+            <h3 class="product-img__price">$30/Day</h3>
+          </div>
+          <div>
+            <h2 class="product__title">Dragonfly Tiny Cabin</h2>
+            <p class="product__discrption">
+              Book unique camping experiences on over 300,000 campsites.
+            </p>
+          </div>
+          <a href="#" class="product__btn primary-btn">Read More</a>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img width="100%" height="100%" class="product-img__picture" src="./images/image3.jpg" alt="" />
+            <label class="product-img__btn">
+              <input class="btn__box" type="checkbox" />
+              <div class="btn__like">
+                <svg viewBox="0 0 256 256">
+                  <rect fill="none" height="100%" width="100%"></rect>
+                  <path class="like-color"
+                    d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                    stroke-width="20px" stroke="" fill="none"></path>
+                </svg>
+              </div>
+            </label>
+            <h3 class="product-img__price">$28/Day</h3>
+          </div>
+          <div>
+            <h2 class="product__title">Tiny Cabin in the mountains</h2>
+            <p class="product__discrption">
+              Book unique camping experiences on over 300,000 campsites.
+            </p>
+          </div>
+          <a href="#" class="product__btn primary-btn">Read More</a>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img width="100%" height="100%" class="product-img__picture" src="./images/image4.jpg" alt="" />
+            <label class="product-img__btn">
+              <input class="btn__box" type="checkbox" />
+              <div class="btn__like">
+                <svg viewBox="0 0 256 256">
+                  <rect fill="none" height="100%" width="100%"></rect>
+                  <path class="like-color"
+                    d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                    stroke-width="20px" stroke="" fill="none"></path>
+                </svg>
+              </div>
+            </label>
+            <h3 class="product-img__price">$29/Night</h3>
+          </div>
+          <div>
+            <h2 class="product__title">The Stuga</h2>
+            <p class="product__discrption">
+              Book unique camping experiences on over 300,000 campsites.
+            </p>
+          </div>
+          <a href="#" class="product__btn primary-btn">Read More</a>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img width="100%" height="100%" class="product-img__picture" src="./images/image5.jpg" alt="" />
+            <label class="product-img__btn">
+              <input class="btn__box" type="checkbox" />
+              <div class="btn__like">
+                <svg viewBox="0 0 256 256">
+                  <rect fill="none" height="100%" width="100%"></rect>
+                  <path class="like-color"
+                    d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                    stroke-width="20px" stroke="" fill="none"></path>
+                </svg>
+              </div>
+            </label>
+            <h3 class="product-img__price">$34/Day</h3>
+          </div>
+          <div>
+            <h2 class="product__title">Luxury Tiny Beach Cabin</h2>
+            <p class="product__discrption">
+              Book unique camping experiences on over 300,000 campsites.
+            </p>
+          </div>
+          <a href="#" class="product__btn primary-btn">Read More</a>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img width="100%" height="100%" class="product-img__picture" src="./images/image6.jpg" alt="" />
+            <label class="product-img__btn">
+              <input class="btn__box" type="checkbox" />
+              <div class="btn__like">
+                <svg viewBox="0 0 256 256">
+                  <rect fill="none" height="100%" width="100%"></rect>
+                  <path class="like-color"
+                    d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                    stroke-width="20px" stroke="" fill="none"></path>
+                </svg>
+              </div>
+            </label>
+            <h3 class="product-img__price">$55/Day</h3>
+          </div>
+          <div>
+            <h2 class="product__title">The Summit Cabin</h2>
+            <p class="product__discrption">
+              Book unique camping experiences on over 300,000 campsites.
+            </p>
+          </div>
+          <a href="#" class="product__btn primary-btn">Read More</a>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img width="100%" height="100%" class="product-img__picture" src="./images/image7.jpg" alt="" />
+            <label class="product-img__btn">
+              <input class="btn__box" type="checkbox" />
+              <div class="btn__like">
+                <svg viewBox="0 0 256 256">
+                  <rect fill="none" height="100%" width="100%"></rect>
+                  <path class="like-color"
+                    d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                    stroke-width="20px" stroke="" fill="none"></path>
+                </svg>
+              </div>
+            </label>
+            <h3 class="product-img__price">$46/Day</h3>
+          </div>
+          <div>
+            <h2 class="product__title">Kindred Spirits Cabin</h2>
+            <p class="product__discrption">
+              Book unique camping experiences on over 300,000 campsites.
+            </p>
+          </div>
+          <a href="#" class="product__btn primary-btn">Read More</a>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img width="100%" height="100%" class="product-img__picture" src="./images/image8.jpg" alt="" />
+            <label class="product-img__btn">
+              <input class="btn__box" type="checkbox" />
+              <div class="btn__like">
+                <svg viewBox="0 0 256 256">
+                  <rect fill="none" height="100%" width="100%"></rect>
+                  <path class="like-color"
+                    d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                    stroke-width="20px" stroke="" fill="none"></path>
+                </svg>
+              </div>
+            </label>
+            <h3 class="product-img__price">$38/Night</h3>
+          </div>
+          <div>
+            <h2 class="product__title">The Hermitage Cabin</h2>
+            <p class="product__discrption">
+              Book unique camping experiences on over 300,000 campsites.
+            </p>
+          </div>
+          <a href="#" class="product__btn primary-btn">Read More</a>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img width="100%" height="100%" class="product-img__picture" src="./images/image9.jpg" alt="" />
+            <label class="product-img__btn">
+              <input class="btn__box" type="checkbox" />
+              <div class="btn__like">
+                <svg viewBox="0 0 256 256">
+                  <rect fill="none" height="100%" width="100%"></rect>
+                  <path class="like-color"
+                    d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                    stroke-width="20px" stroke="" fill="none"></path>
+                </svg>
+              </div>
+            </label>
+            <h3 class="product-img__price">$36/Day</h3>
+          </div>
+          <div>
+            <h2 class="product__title">Red Lifeguard Stand</h2>
+            <p class="product__discrption">
+              Book unique camping experiences on over 300,000 campsites.
+            </p>
+          </div>
+          <a href="#" class="product__btn primary-btn">Read More</a>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img width="100%" height="100%" class="product-img__picture" src="./images/image10.jpg" alt="" />
+            <label class="product-img__btn">
+              <input class="btn__box" type="checkbox" />
+              <div class="btn__like">
+                <svg viewBox="0 0 256 256">
+                  <rect fill="none" height="100%" width="100%"></rect>
+                  <path class="like-color"
+                    d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                    stroke-width="20px" stroke="" fill="none"></path>
+                </svg>
+              </div>
+            </label>
+            <h3 class="product-img__price">$44/Night</h3>
+          </div>
+          <div>
+            <h2 class="product__title">The Tree House</h2>
+            <p class="product__discrption">
+              Book unique camping experiences on over 300,000 campsites.
+            </p>
+          </div>
+          <a href="#" class="product__btn primary-btn">Read More</a>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img width="100%" height="100%" class="product-img__picture" src="./images/image11.jpg" alt="" />
+            <label class="product-img__btn">
+              <input class="btn__box" type="checkbox" />
+              <div class="btn__like">
+                <svg viewBox="0 0 256 256">
+                  <rect fill="none" height="100%" width="100%"></rect>
+                  <path class="like-color"
+                    d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                    stroke-width="20px" stroke="" fill="none"></path>
+                </svg>
+              </div>
+            </label>
+            <h3 class="product-img__price">$49/Day</h3>
+          </div>
+          <div>
+            <h2 class="product__title">Barrier island elevated tent</h2>
+            <p class="product__discrption">
+              Book unique camping experiences on over 300,000 campsites.
+            </p>
+          </div>
+          <a href="#" class="product__btn primary-btn">Read More</a>
+        </div>
+        <div class="product">
+          <div class="product-img">
+            <img width="100%" height="100%" class="product-img__picture" src="./images/image12.jpg" alt="" />
+            <label class="product-img__btn">
+              <input class="btn__box" type="checkbox" />
+              <div class="btn__like">
+                <svg viewBox="0 0 256 256">
+                  <rect fill="none" height="100%" width="100%"></rect>
+                  <path class="like-color"
+                    d="M224.6,51.9a59.5,59.5,0,0,0-43-19.9,60.5,60.5,0,0,0-44,17.6L128,59.1l-7.5-7.4C97.2,28.3,59.2,26.3,35.9,47.4a59.9,59.9,0,0,0-2.3,87l83.1,83.1a15.9,15.9,0,0,0,22.6,0l81-81C243.7,113.2,245.6,75.2,224.6,51.9Z"
+                    stroke-width="20px" stroke="" fill="none"></path>
+                </svg>
+              </div>
+            </label>
+            <h3 class="product-img__price">$69/Day</h3>
+          </div>
+          <div>
+            <h2 class="product__title">Ninovan on the Shore</h2>
+            <p class="product__discrption">
+              Book unique camping experiences on over 300,000 campsites.
+            </p>
+          </div>
+          <a href="#" class="product__btn primary-btn">Read More</a>
+        </div>
+      </section>
+      <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="bottom-shape">
+        <svg class="shape__img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="1008.931" height="1025.749" viewBox="0 0 1008.931 1025.749">
           <path
-            d="M501.2,0c283.253,0,512.875,229.622,512.875,512.875S784.458,1025.749,501.2,1025.749-254.276,629.973,182.739,512.875,217.952,0,501.2,0Z"
-          />
+            d="M501.2,0c283.253,0,512.875,229.622,512.875,512.875S784.458,1025.749,501.2,1025.749-254.276,629.973,182.739,512.875,217.952,0,501.2,0Z" />
           <defs>
             <linearGradient id="MyGradient">
               <stop offset="10%" stop-color="#F8E1DB" />
@@ -859,24 +524,11 @@
           <rect width="100%" />
         </svg>
       </div>
-      <div
-        data-aos="fade-right"
-        data-aos-offset="300"
-        data-aos-easing="ease-in-sine"
-        class="miror-shape"
-      >
-        <svg
-          class="shape__img"
-          xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink"
-          width="981.678"
-          height="998.042"
-          viewBox="0 0 981.678 998.042"
-        >
+      <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="bottom-miror-shape">
+        <svg class="shape__img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+          width="981.678" height="998.042" viewBox="0 0 981.678 998.042">
           <path
-            class=""
-            d="M504.169,0C228.568,0,5.148,223.419,5.148,499.021S228.568,998.042,504.169,998.042s735.074-385.086,309.863-499.021S779.771,0,504.169,0Z"
-          />
+            d="M504.169,0C228.568,0,5.148,223.419,5.148,499.021S228.568,998.042,504.169,998.042s735.074-385.086,309.863-499.021S779.771,0,504.169,0Z" />
           <defs>
             <linearGradient id="MyGradient">
               <stop offset="10%" stop-color="#F8E1DB" />
@@ -886,90 +538,179 @@
           <rect width="100%" />
         </svg>
       </div>
-    </main>
+      <a class="products__btn primary-btn" href="#" data-aos="zoom-out-up" data-aos-duration="750">View More</a>
+      <section class="newsletter" data-aos="zoom-out-up" data-aos-duration="500">
+        <div data-aos="zoom-out-down" data-aos-duration="3000" class="newsletter__content-mobile-shape">
+          <svg class="shape__img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+            width="981.678" height="998.042" viewBox="0 0 981.678 998.042">
+            <path
+              d="M504.169,0C228.568,0,5.148,223.419,5.148,499.021S228.568,998.042,504.169,998.042s735.074-385.086,309.863-499.021S779.771,0,504.169,0Z" />
+            <defs>
+              <linearGradient id="MyGradient">
+                <stop offset="10%" stop-color="#F8E1DB" />
+                <stop offset="90%" stop-color="#f5f5f5" />
+              </linearGradient>
+            </defs>
+            <rect width="100%" />
+          </svg>
+        </div>
+        <div data-aos="zoom-out-left" data-aos-duration="3000" class="newsletter__content-desktop-shape">
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1518" height="390"
+            viewBox="0 0 1518 390">
+            <defs>
+              <linearGradient id="a" x1="0.971" y1="0.622" x2="0.142" y2="0.592" gradientUnits="objectBoundingBox">
+                <stop offset="0" stop-color="#fff" />
+                <stop offset="1" stop-color="#fff0ec" />
+              </linearGradient>
+              <clipPath id="b">
+                <rect width="1518" height="390" rx="20" fill="url(#a)" />
+              </clipPath>
+              <linearGradient id="c" x1="0.102" y1="0.459" x2="1.115" y2="0.475" gradientUnits="objectBoundingBox">
+                <stop offset="0" stop-color="#ffd2c6" />
+                <stop offset="1" stop-color="#fff" />
+              </linearGradient>
+            </defs>
+            <g clip-path="url(#b)">
+              <path
+                d="M519.044,1000.568c286.66,0,653.871-523.406,308.75-523.406S805.7,0,519.044,0,0,223.985,0,500.284,232.384,1000.568,519.044,1000.568Z"
+                transform="translate(-118.114 -385.284)" fill="url(#c)" />
+            </g>
+          </svg>
+        </div>
+        <div class="newsletter__picture" data-aos="zoom-out-up" data-aos-duration="500">
+          <img width="100%" height="100%" class="newsletter__picture-tent" src="./images/tent.png" alt="tent" />
+        </div>
+        <div class="newsletter__content" data-aos="zoom-out-up" data-aos-duration="500">
+          <h2 class="newsletter__title">Let's Stay in Touch</h2>
+          <p class="newsletter__discription">
+            Get travel planning ideas, helpful tips, and stories from our
+            visitors delivered right to your inbox.
+          </p>
+          <form action="" class="newsletter__email-box">
+            <svg class="newsletter__email-box-icon" xmlns="http://www.w3.org/2000/svg" width="24.242" height="17.746"
+              viewBox="0 0 24.242 17.746">
+              <path id="Path_908" data-name="Path 908"
+                d="M26.215,17.058H8.027A3.03,3.03,0,0,0,5,20.085V31.777A3.031,3.031,0,0,0,8.027,34.8H26.215a3.031,3.031,0,0,0,3.027-3.027V20.085A3.03,3.03,0,0,0,26.215,17.058Zm-18.188.857H26.215a2.168,2.168,0,0,1,1.829,1.007l-9.328,8.81a2.354,2.354,0,0,1-3.189,0L6.2,18.923A2.169,2.169,0,0,1,8.027,17.915ZM5.878,32.062a2.207,2.207,0,0,1-.021-.285V20.085a2.163,2.163,0,0,1,.021-.285l6.491,6.131Zm20.337,1.885H8.027A2.168,2.168,0,0,1,6.2,32.94l6.8-6.419,1.944,1.835a3.22,3.22,0,0,0,4.366,0l1.943-1.835,6.8,6.418A2.167,2.167,0,0,1,26.215,33.947Zm2.169-13.862V31.777a2.2,2.2,0,0,1-.021.285l-6.491-6.131L28.364,19.8A2.251,2.251,0,0,1,28.384,20.085Z"
+                transform="translate(-5 -17.058)" fill="#8d8d8d" />
+            </svg>
+            <input type="email" class="newsletter__input" placeholder="Email Address" />
+            <button class="newsletter__submit" type="submit">
+              <svg class="newsletter__submit-icon" xmlns="http://www.w3.org/2000/svg" width="24.162" height="18.23"
+                viewBox="0 0 24.162 18.23">
+                <path id="Path_909" data-name="Path 909"
+                  d="M9.778,15.82,6.954,17.7a.55.55,0,0,1-.816-.439V13.121l11.546-8.66L3.88,11.8.3,9.356A.748.748,0,0,1,.491,8.039L23.709-.37c.314-.126.565.251.377.565L13.606,17.514a.773.773,0,0,1-1.067.188Z"
+                  transform="translate(0.012 0.395)" fill-rule="evenodd" />
+              </svg>
+            </button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <div data-aos="fade-left" data-aos-offset="300" data-aos-easing="ease-in-sine" class="shape">
+      <svg class="shape__img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="1008.931" height="1025.749" viewBox="0 0 1008.931 1025.749">
+        <path
+          d="M501.2,0c283.253,0,512.875,229.622,512.875,512.875S784.458,1025.749,501.2,1025.749-254.276,629.973,182.739,512.875,217.952,0,501.2,0Z" />
+        <defs>
+          <linearGradient id="MyGradient">
+            <stop offset="10%" stop-color="#F8E1DB" />
+            <stop offset="90%" stop-color="#FAF4F2" />
+          </linearGradient>
+        </defs>
+        <rect width="100%" />
+      </svg>
+    </div>
+    <div data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" class="miror-shape">
+      <svg class="shape__img" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="981.678" height="998.042" viewBox="0 0 981.678 998.042">
+        <path
+          d="M504.169,0C228.568,0,5.148,223.419,5.148,499.021S228.568,998.042,504.169,998.042s735.074-385.086,309.863-499.021S779.771,0,504.169,0Z" />
+        <defs>
+          <linearGradient id="MyGradient">
+            <stop offset="10%" stop-color="#F8E1DB" />
+            <stop offset="90%" stop-color="#FAF4F2" />
+          </linearGradient>
+        </defs>
+        <rect width="100%" />
+      </svg>
+    </div>
+  </main>
 
-    <!-- 
+  <!-- 
     ===================
     ====== Footer ======
     ===================
         -->
-    <footer class="footer">
-      <div class="container">
-        <div class="wrapper">
-          <div class="footer-wrapper">
-            <div class="footer-content">
-              <h2 class="footer__title">
-                Hipcamp is everywhere you want to camp.
-              </h2>
-              <p class="footer__discription">
-                Discover unique experiences on ranches, nature preserves, farms,
-                vineyards, and public campgrounds across the U.S. Book tent
-                camping, treehouses, cabins, yurts, primitive backcountry sites,
-                car camping, airstreams, tiny houses, RV camping, glamping tents
-                and more.
-              </p>
-            </div>
+  <footer class="footer">
+    <div class="container">
+      <div class="wrapper">
+        <div class="footer-wrapper">
+          <div class="footer-content">
+            <h2 class="footer__title">
+              Hipcamp is everywhere you want to camp.
+            </h2>
+            <p class="footer__discription">
+              Discover unique experiences on ranches, nature preserves, farms,
+              vineyards, and public campgrounds across the U.S. Book tent
+              camping, treehouses, cabins, yurts, primitive backcountry sites,
+              car camping, airstreams, tiny houses, RV camping, glamping tents
+              and more.
+            </p>
           </div>
-          <div class="footer-wrapper">
-            <div class="footer-wrapper__list">
-              <h2 class="footer__title">Get to Know Us</h2>
-              <ul class="footer-list">
-                <li class="footer-list__item">About Us</li>
-                <li class="footer-list__item">Rules & Reservation Policies</li>
-                <li class="footer-list__item">Accessibility</li>
-                <li class="footer-list__item">Media Center</li>
-                <li class="footer-list__item">Site Map</li>
-              </ul>
-            </div>
-            <div class="footer-wrapper__list">
-              <h2 class="footer__title">Plan with Us</h2>
-              <ul class="footer-list">
-                <li class="footer-list__item">Find Trip Inspiration</li>
-                <li class="footer-list__item">Build a Trip</li>
-                <li class="footer-list__item">Buy a Pass</li>
-                <li class="footer-list__item">Enter a Lottery</li>
-                <li class="footer-list__item">Shahab</li>
-              </ul>
-            </div>
-            <div class="footer-wrapper__list">
-              <h2 class="footer__title">Let Us Help You</h2>
-              <ul class="footer-list">
-                <li class="footer-list__item">Your Account</li>
-                <li class="footer-list__item">Your Reservations</li>
-                <li class="footer-list__item">Contact Us</li>
-                <li class="footer-list__item">Help Center</li>
-                <li class="footer-list__item">Submit Feedback</li>
-              </ul>
-            </div>
+        </div>
+        <div class="footer-wrapper">
+          <div class="footer-wrapper__list">
+            <h2 class="footer__title">Get to Know Us</h2>
+            <ul class="footer-list">
+              <li class="footer-list__item">About Us</li>
+              <li class="footer-list__item">Rules & Reservation Policies</li>
+              <li class="footer-list__item">Accessibility</li>
+              <li class="footer-list__item">Media Center</li>
+              <li class="footer-list__item">Site Map</li>
+            </ul>
           </div>
-          <div class="application">
-            <h2 class="footer__title">Download Our App</h2>
-            <div class="application-link">
-              <a href="#" class="application-link__download"
-                ><img
-                  class="store"
-                  src="./images/app-store-apple.jpg"
-                  alt="app store"
-              /></a>
-              <a href="#" class="application-link__download"
-                ><img
-                  class="store"
-                  src="./images/google-play.jpg"
-                  alt="google play"
-              /></a>
-            </div>
+          <div class="footer-wrapper__list">
+            <h2 class="footer__title">Plan with Us</h2>
+            <ul class="footer-list">
+              <li class="footer-list__item">Find Trip Inspiration</li>
+              <li class="footer-list__item">Build a Trip</li>
+              <li class="footer-list__item">Buy a Pass</li>
+              <li class="footer-list__item">Enter a Lottery</li>
+              <li class="footer-list__item">Shahab</li>
+            </ul>
+          </div>
+          <div class="footer-wrapper__list">
+            <h2 class="footer__title">Let Us Help You</h2>
+            <ul class="footer-list">
+              <li class="footer-list__item">Your Account</li>
+              <li class="footer-list__item">Your Reservations</li>
+              <li class="footer-list__item">Contact Us</li>
+              <li class="footer-list__item">Help Center</li>
+              <li class="footer-list__item">Submit Feedback</li>
+            </ul>
+          </div>
+        </div>
+        <div class="application">
+          <h2 class="footer__title">Download Our App</h2>
+          <div class="application-link">
+            <a href="#" class="application-link__download"><img width="100%" height="100%" class="store"
+                src="./images/app-store-apple.jpg" alt="app store" /></a>
+            <a href="#" class="application-link__download"><img width="100%" height="100%" class="store"
+                src="./images/google-play.jpg" alt="google play" /></a>
           </div>
         </div>
       </div>
-      <h4 class="date">© 2024. All rights reserved.</h4>
-    </footer>
+    </div>
+    <h4 class="date">© 2024. All rights reserved.</h4>
+  </footer>
 
-    <!-- 
+  <!-- 
     ===================
     ======== JS ========
     ===================
         -->
-    <script src="scripts/aos.js"></script>
-    <script src="scripts/app.js"></script>
-  </body>
+  <script src="scripts/aos.js"></script>
+  <script src="scripts/app.js"></script>
+</body>
+
 </html>
