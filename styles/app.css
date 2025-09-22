@@ -441,9 +441,6 @@ a {
 
 .nav-mobile--open {
   left: -64%;
-  -webkit-border-radius: 100%;
-  -moz-border-radius: 100%;
-  border-radius: 100%;
 }
 
 .mobile-menu {
